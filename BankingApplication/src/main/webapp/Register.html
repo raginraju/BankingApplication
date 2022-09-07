@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<nav class="navbar">
+		<div class="container">
+			<div class="logo">YOB</div>
+			<ul class="nav">
+				<li><a href="AdminLogin.html" >Admin</a></li>
+				<li class="open"><a href="Register.html">Customer</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	
+	<header class="header">
+		<div class="container">
+			<div id="error"></div>
+			<div class="table-label">
+			
+				<form action="/BankingApplication/AddCustomer">
+					<table>
+						<tr>
+							<td>NAME</td>
+							<td><input type="text" name="name" required></td>
+						</tr>
+						<tr>
+							<td>USERNAME</td>
+							<td><input type="text" name="usr" required></td>
+						</tr>
+						<tr>
+							<td>PASSWORD</td>
+							<td><input type="password" name="pwd" required></td>
+						</tr>
+						<tr>
+							<td>CONFIRM PASSWORD</td>
+							<td><input type="password" name="cpwd" required></td>
+						</tr>
+						<tr>
+							<td>PHONE NUMER</td>
+							<td><input type="text" name="phone" required></td>
+						</tr>
+						<tr>
+							<td>EMAIL</td>
+							<td><input type="text" name="email" required></td>
+						</tr>
+					</table>
+					<input class="button" type="submit" value="Register">
+				
+				<div> <span class="white-back">Proceed to login if you have alr registered &#8608;</span> <a class="button1" href="Login.html" >Login</a></div> 
+				<div> <span class="white-back">Forgot Password? Send new password to registered email &#8608;</span> <a class="button1" href="ForgotPassword.html" >Take me there</a></div>
+				</form>	
+			</div>	
+		</div>
+	</header>
+
+</body>
+</html>

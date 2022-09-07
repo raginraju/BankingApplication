@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap')
+	;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.chart{
+display: flex;
+    flex-direction: row;
+    margin: 10px 14px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    position: relative;
+    width: 455px;
+    height: 290px;
+}
+
+
+
+.back-color{
+	background-color: #56d2cfad;
+	margin:  5px 0px;
+}
+
+
+
+
+
+.button{
+	color: white;
+	text-decoration: none;
+/* 	margin: 30px 25px; */
+	margin: 16px 339px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding: 15px 25px;
+	height:45px;
+	width:fit-content;
+	font-size: 25px;
+	border-radius: 16px;
+	border: none;
+	background-color: red;
+	
+}
+
+.button:hover{
+	background-color: #21e35b;
+	color: black;
+}
+
+
+
+.button1{
+	margin:10px 25px;
+	border-radius: 16px;
+	border: none;
+	background-color: red;
+	font-size: 40px;
+	padding: 7px 18px;
+	text-decoration: none;
+	color:white;
+}
+.button1:hover{
+	background-color: #21e35b;
+	color: black;
+}
+
+
+
+form{
+	margin:30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:30px;
+}
+form table td{
+	background-color:#82aaee;
+	border-radius:5px;
+	
+}
+
+form input{
+	height:45px;
+	width:300px;
+	font-size: 19px;
+}
+
+.loan-repay input{
+	height:45px;
+	width:85px;
+	font-size: 19px;
+}
+
+.drop-down{
+	height:45px;
+	width:300px;
+	font-size: 19px;
+}
+
+body {
+	font-size: 30px;
+	line-height: 1.5;
+	background: url(images/plant.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+
+h1, h2 {
+	margin-top: auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+h3 {
+	
+	margin-top: auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	line-height: 3;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.navbar {
+	background: #1a276feb;
+	color: #fff;
+	height: 100px;
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.navbar .logo {
+	font-size: xxx-large;
+	font-weight: bold;
+	font-family: 'Righteous', cursive;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 25px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.open{
+	background: red;
+	border-radius: 16px;
+}
+
+.navbar a:hover{
+	background: red;
+	border-radius: 16px;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.navbar ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header .container {
+/* 	background-color: white;  */
+	max-width : 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.nav .fall-buttons{
+	padding: 15px 25px;
+	background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;  
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: red; border-radius:2px}
+  25%  {background-color: yellow; color:black; border-radius:5px}
+  50%  {background-color: cyan; color:black;border-radius:10px}
+  100% {background-color: yellowgreen; color:black;border-radius:15px}
+  
+}
+
+.header .container {
+	margin-top:30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.inner-tables {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: rows;
+	margin:0px 10px;
+	
+}
+
+.twosides{
+	margin: 40px 50px;
+	text-align: center;
+}
+
+.twosides .approved{
+	background-color: green;
+}
+
+.twosides .rejected{
+	background-color: red;
+}
+
+.twosides .approved table, .twosides .rejected table{
+	background-color: white;
+}
+
+.white-back{
+	background-color: #b7e6b3;
+	color: black;
+	padding:10px 5px;
+	width:fit-content;
+	border-radius:5px;
+}
+
+.header-row th{
+	font-size:16px;
+	background-color: #73db4d4f;
+	border: 1px;
+	padding: 15px;	
+}
+
+.body-row td{
+	font-size:16px;
+	background-color:#00caffeb;
+	border: 1px;
+	padding: 0 16px;
+    color: #b41616;
+    font-family: monospace;
+}
+
+.index-page{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 14px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 418px;
+    height: 283px;
+    align-items: flex-start;
+}
+
+.red-back{
+	background-color: red;
+	color:white;
+	border-radius: 5px;	
+	font-size: 20px;
+}
+
+.red-back:hover{
+	background-color: white;
+	color:black;
+	border-radius: 5px;	
+}
+
+.loan-form{
+	height: 37px;
+    width: 83px;
+    font-size: 19px;
+}
